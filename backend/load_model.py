@@ -2,16 +2,19 @@ import torch
 import torchvision.transforms as transforms
 from PIL import Image
 import numpy as np
+from pathlib import Path
 
 # ====================== CONFIGURATION ======================
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+MODEL_PATH = Path(__file__).resolve().parent.parent / "models" / "best_glaucoma_convnext.pth"
+
 print(f" Utilisation du device : {DEVICE}")
 
 print(" Chargement des poids du modèle best_glaucoma_convnext.pth ...")
 
 try:
     # Chargement du checkpoint
-    checkpoint = torch.load("models/best_glaucoma_convnext.pth",
+    checkpoint = torch.load(MODEL_PATH,
                             map_location=DEVICE,
                             weights_only=True)
 

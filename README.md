@@ -47,6 +47,14 @@ Remarque : Le dataset n’est pas inclus dans ce dépôt en raison de sa taille.
 
 ---
 
+## Structure du dépôt
+- `backend/` : API Flask et chargement du modèle
+- `frontend/` : interface web de démonstration
+- `notebooks/` : notebook principal du projet
+- `models/` : poids du modèle local
+
+---
+
 ## Organisation du travail en équipe
 Le projet est géré avec Git selon une approche collaborative :
 
