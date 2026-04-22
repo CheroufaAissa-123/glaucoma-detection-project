@@ -48,6 +48,11 @@ Remarque : Le dataset n’est pas inclus dans ce dépôt en raison de sa taille.
 ---
 
 ## Structure du dépôt
+
+---
+
+## Branche feature-result
+Cette branche contient les modifications pour les résultats.
 - `backend/` : API Flask et chargement du modèle
 - `frontend/` : interface web de démonstration
 - `notebooks/` : notebook principal du projet
