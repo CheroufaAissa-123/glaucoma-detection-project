@@ -51,6 +51,7 @@ Remarque : Le dataset n’est pas inclus dans ce dépôt en raison de sa taille.
 - `backend/` : API Flask et chargement du modèle
 - `frontend/` : interface web de démonstration
 - `notebooks/` : notebook principal du projet
+- `pipeline/` : préparation des données et fonctions d'évaluation réutilisables
 - `models/` : poids du modèle local
 
 ---
@@ -72,6 +73,7 @@ Dans ce projet, la partie prétraitement des données inclut :
 - Augmentation des données  
 - Amélioration du contraste des images  
 - Préparation des données pour l’entraînement  
+- Évaluation des performances avec des métriques adaptées
 
 ---
 
