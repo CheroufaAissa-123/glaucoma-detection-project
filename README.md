@@ -1,7 +1,8 @@
 # Détection du glaucome à partir d’images du fond d’œil
 
 ## Présentation du projet
-Ce projet vise à développer un pipeline de deep learning pour la détection du glaucome à partir d’images du fond d’œil. L’objectif est de classifier les images en deux catégories : **normal** et **glaucome**, en utilisant des techniques de vision par ordinateur.
+Ce projet vise à développer un pipeline de deep learning pour la détection du glaucome à partir d’images du fond d’œil.  
+L’objectif est de classifier les images en deux catégories : normal et glaucome, en utilisant des techniques de vision par ordinateur.
 
 Le projet est réalisé en équipe, chaque membre étant responsable d’une partie spécifique du pipeline.
 
@@ -16,29 +17,31 @@ Le projet est réalisé en équipe, chaque membre étant responsable d’une par
 
 ---
 
-## Structure du projet
+## Pipeline du projet
 Le projet suit un workflow modulaire :
 
-- Prétraitement et augmentation des données  
-- Conception de l’architecture du modèle (CNN / Transfer Learning)  
-- Entraînement et optimisation  
-- Évaluation et analyse des performances  
+1. Chargement des données  
+2. Prétraitement et augmentation des données  
+3. Conception de l’architecture du modèle (CNN / Transfer Learning)  
+4. Entraînement et optimisation  
+5. Évaluation et analyse des performances  
 
 ---
 
 ## Données
 Le dataset est composé d’images du fond d’œil réparties en deux classes :
+
 - Normal  
 - Glaucome  
 
-> Remarque : Le dataset n’est pas inclus dans ce dépôt en raison de sa taille.
+Remarque : Le dataset n’est pas inclus dans ce dépôt en raison de sa taille.
 
 ---
 
 ## Technologies utilisées
 - Python  
 - PyTorch / TensorFlow  
-- Albumentations (augmentation des données)  
+- Albumentations  
 - NumPy / Pandas  
 - Matplotlib / Seaborn  
 
@@ -47,18 +50,27 @@ Le dataset est composé d’images du fond d’œil réparties en deux classes :
 ## Organisation du travail en équipe
 Le projet est géré avec Git selon une approche collaborative :
 
-- `main` : branche principale stable  
-- `feature-*` : branches de travail individuelles pour chaque membre  
+- main : branche principale stable  
+- feature-* : branches de travail individuelles pour chaque membre  
 
-Chaque membre travaille sur une branche dédiée puis fusionne son travail dans la branche principale.
+Chaque membre travaille sur une branche dédiée, effectue ses commits puis propose une fusion dans la branche principale.
 
 ---
 
-## Ma contribution
-Je suis responsable du **prétraitement et de l’augmentation des données**, incluant :
+## Contribution
+Dans ce projet, la partie prétraitement des données inclut :
+
 - Normalisation des images  
-- Techniques d’augmentation  
-- Préparation des données d’entraînement  
+- Augmentation des données  
+- Amélioration du contraste des images  
+- Préparation des données pour l’entraînement  
+
+---
+
+## Limites du projet
+- Dépendance à la qualité du dataset  
+- Déséquilibre des classes  
+- Difficulté de généralisation sur d’autres datasets  
 
 ---
 
@@ -71,4 +83,11 @@ Je suis responsable du **prétraitement et de l’augmentation des données**, i
 ---
 
 ## Licence
-Projet réalisé dans un cadre académique.
+Projet réalisé dans un cadre académique par :
+
+Cheroufa Aissa  
+Hanafi Ahcene  
+Saada Lounes  
+Hanouti Yanis  
+Kemiche Nassim  
+Sirem Kaci
