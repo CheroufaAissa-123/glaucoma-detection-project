@@ -5,3 +5,7 @@ Fusion/
 *.pt
 __pycache__/
 .ipynb_checkpoints/
+.venv/
+venv/
+models/
+*.log
