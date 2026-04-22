@@ -1,3 +1,3 @@
-# Project Docs
+# Documentation Du Projet
 
-- `ahcene-data-prep-evaluation.md`: scope and contribution area for Ahcene on data preparation and model evaluation.
+- `ahcene-data-prep-evaluation.md` : perimetre et zone de contribution d'Ahcene pour la preparation des donnees et l'evaluation du modele.

@@ -1,38 +1,38 @@
-# Ahcene - Data Preparation and Model Evaluation
+# Ahcene - Preparation Des Donnees Et Evaluation Du Modele
 
-## Scope
+## Perimetre
 
-This contribution area covers the parts of the project related to preparing the data pipeline for training and evaluating glaucoma classification models.
+Cette zone de contribution couvre les parties du projet liees a la preparation du pipeline de donnees pour l'entrainement et a l'evaluation des modeles de classification du glaucome.
 
-## Main Responsibilities
+## Responsabilites Principales
 
-- Define and maintain image preprocessing choices used before training
-- Configure data augmentation pipelines adapted to retinal fundus images
-- Prepare train, validation, and test splits consistently
-- Handle class imbalance during training data loading
-- Track and interpret evaluation metrics for the trained model
+- Definir et maintenir les choix de pretraitement des images avant l'entrainement
+- Configurer les pipelines d'augmentation adaptes aux images du fond d'oeil
+- Preparer de maniere coherente les jeux train, validation et test
+- Gerer le desequilibre des classes pendant le chargement des donnees d'entrainement
+- Suivre et interpreter les metriques d'evaluation du modele entraine
 
-## Current Project Mapping
+## Correspondance Avec Le Projet Actuel
 
-The current implementation for this scope is mainly located in `notebooks/code_principale.ipynb`.
+L'implementation actuelle de cette partie se trouve principalement dans `notebooks/code_principale.ipynb`.
 
-Relevant sections already present in the notebook:
+Sections deja presentes dans le notebook :
 
-- Transformations and preprocessing with Albumentations
-- CLAHE-based contrast enhancement
-- Dataset loading with `ImageFolder`
-- Train/validation/test preparation
-- Weighted sampling for imbalance handling
-- Evaluation with accuracy, precision, recall, F1-score, AUC, and confusion matrix
+- Transformations et pretraitement avec Albumentations
+- Amelioration du contraste avec CLAHE
+- Chargement du dataset avec `ImageFolder`
+- Preparation des jeux train, validation et test
+- Echantillonnage pondere pour gerer le desequilibre
+- Evaluation avec accuracy, precision, recall, F1-score, AUC et matrice de confusion
 
-## Expected Deliverables For This Branch
+## Livrables Attendus Pour Cette Branche
 
-- Clear preprocessing and augmentation configuration
-- Reproducible dataset preparation steps
-- Documented evaluation procedure
-- Clean reporting of the main validation and test metrics
+- Une configuration claire du pretraitement et de l'augmentation
+- Des etapes reproductibles de preparation des donnees
+- Une procedure d'evaluation documentee
+- Un reporting propre des principales metriques de validation et de test
 
 ## Notes
 
-This branch is intended for work related to data preparation and evaluation only.
-Inference API and frontend demo code remain outside the main scope of this contribution.
+Cette branche est reservee au travail lie a la preparation des donnees et a l'evaluation.
+Le code d'inference de l'API et la demonstration frontend restent hors du perimetre principal de cette contribution.

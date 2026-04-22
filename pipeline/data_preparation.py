@@ -24,7 +24,7 @@ class DataPreparationConfig:
 
 
 class AlbumentationsTransform:
-    """Adapter so Albumentations can be used with torchvision datasets."""
+    """Adaptateur pour utiliser Albumentations avec les datasets torchvision."""
 
     def __init__(self, pipeline: A.Compose) -> None:
         self.pipeline = pipeline
