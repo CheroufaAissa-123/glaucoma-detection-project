@@ -95,7 +95,7 @@ Projet réalisé dans un cadre académique par :
 
 Cheroufa Aissa  
 Hanafi Ahcene  
-Saada Lounes  
+Saada Lounes  Préparation des données pour l’entraînement  
 Hanouti Yanis  
 Kemiche Nassim  
-Sirem Kaci
+Sirem Kaci 
